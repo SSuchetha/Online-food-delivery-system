@@ -1,1 +1,1 @@
-
+This JAVA project is designed for ordering scrumptious food from a wide range of vegetarian food ranging from breakfast to dinner including delicacies like Italian, Mexican etc. The customer can reserve a seat in a vegetarian restaurant of their choice. The customer can avail catering services also.
