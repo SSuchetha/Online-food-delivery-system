@@ -8,9 +8,9 @@ public class South
 		boolean exitmenu=false;
 		System.out.println("Pls select a dish..");
 		System.out.println("1. Rasam Rice");
-		System.out.println("2. Poori Saagu");
+		System.out.println("2. Tomato Bath");
 		System.out.println("3. Bisi Bele Bath");
-		System.out.println("4. Khara bath");
+		System.out.println("4. Sambhar Rice");
 		System.out.println("5. Curd Rice with Uppinkayi");
 		System.out.println("6. Exit");
 		do
@@ -29,27 +29,27 @@ public class South
 					MAIN.foodCount++;
 					break;
 				case 2:
-					System.out.println("Poori Saagu cost is " +90);
+					System.out.println("Tomato Bath cost is " +160);
 					MAIN.arrBilling[MAIN.foodCount]=new Billing();
-					MAIN.arrBilling[MAIN.foodCount].addFood("Poori Saagu~", 90);
+					MAIN.arrBilling[MAIN.foodCount].addFood("Tomato Bath~", 160);
 					MAIN.foodCount++;
 					break;
 				case 3:
-					System.out.println("Bisi Bele Bath cost is " +120);
+					System.out.println("Bisi Bele Bath cost is " +135);
 					MAIN.arrBilling[MAIN.foodCount]=new Billing();
-					MAIN.arrBilling[MAIN.foodCount].addFood("Bisi Bele Bath~", 120);
+					MAIN.arrBilling[MAIN.foodCount].addFood("Bisi Bele Bath~", 135);
 					MAIN.foodCount++;
 					break;
 				case 4:
-					System.out.println("Khara bath cost is " +80);
+					System.out.println("Sambhar Rice cost is " +160);
 					MAIN.arrBilling[MAIN.foodCount]=new Billing();
-					MAIN.arrBilling[MAIN.foodCount].addFood("Khara bath~", 80);
+					MAIN.arrBilling[MAIN.foodCount].addFood("Sambhar Rice~", 160);
 					MAIN.foodCount++;
 					break;
 				case 5:
-					System.out.println("Curd Rice with Uppinkayi cost is " +100);
+					System.out.println("Curd Rice with Uppinkayi cost is " +130);
 					MAIN.arrBilling[MAIN.foodCount]=new Billing();
-					MAIN.arrBilling[MAIN.foodCount].addFood("Curd Rice with Uppinkayi~", 100);
+					MAIN.arrBilling[MAIN.foodCount].addFood("Curd Rice with Uppinkayi~", 130);
 					MAIN.foodCount++;
 					break;
 				case 6:
