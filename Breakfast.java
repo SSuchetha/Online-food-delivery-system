@@ -5,7 +5,7 @@ public class Breakfast
 	{
 		int d;
 		boolean exitmenu=false;
-		String menu="Pls choose a dish\n1.Sandwich Ketup\n2.Oatmeal\n3.Dosa Chutney\n4.Idly Sambhar"
+		String menu="Pls choose a dish\n1.Sandwich Ketup\n2.Aloo Paratha\n3.Dosa Chutney\n4.Idly Sambhar"
 				+ "\n5.Poha\n6.Exit";
 		System.out.println(menu);
 		do
@@ -18,15 +18,15 @@ public class Breakfast
 				switch(d)
 				{
 				case 1:
-					System.out.println("Sandwich Ketchup cos is "+35);
+					System.out.println("Sandwich Ketchup cos is "+45);
 					MAIN.arrBilling[MAIN.foodCount]=new Billing();
-					MAIN.arrBilling[MAIN.foodCount].addFood("Sandwich Ketchup~",35);
+					MAIN.arrBilling[MAIN.foodCount].addFood("Sandwich Ketchup~",45);
 					MAIN.foodCount++;
 					break;
 				case 2:
-					System.out.println("Oatmeal cost is " + 45);
+					System.out.println("Aloo Paratha cost is " + 50);
 					MAIN.arrBilling[MAIN.foodCount]=new Billing();
-					MAIN.arrBilling[MAIN.foodCount].addFood("Oatmeal~",45);
+					MAIN.arrBilling[MAIN.foodCount].addFood("Aloo Paratha~",50);
 					MAIN.foodCount++;
 					break;
 				case 3:
