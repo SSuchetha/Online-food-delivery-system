@@ -25,7 +25,7 @@ public class Snacks
 		case 'B':
 			System.out.println("Pls select a dish..");
 			System.out.println("1. Cake");
-			System.out.println("2. Pastires");
+			System.out.println("2. Pastries");
 			System.out.println("3. Biscuit");
 			System.out.println("4. Puffs");
 			System.out.println("5. Nachos");
@@ -46,9 +46,9 @@ public class Snacks
 						MAIN.foodCount++;
 						break;
 					case 2:
-						System.out.println("Pastires cost is " +100);
+						System.out.println("Pastries cost is " +100);
 						MAIN.arrBilling[MAIN.foodCount]=new Billing();
-						MAIN.arrBilling[MAIN.foodCount].addFood("Pastires~", 100);
+						MAIN.arrBilling[MAIN.foodCount].addFood("Pastries~", 100);
 						MAIN.foodCount++;
 						break;
 					case 3:
