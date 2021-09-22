@@ -23,9 +23,9 @@ public class Chinese
 				switch(d)
 				{
 				case 1:
-					System.out.println("Schezwan Noodles cost is " +80);
+					System.out.println("Schezwan Noodles cost is " +180);
 					MAIN.arrBilling[MAIN.foodCount]=new Billing();
-					MAIN.arrBilling[MAIN.foodCount].addFood("Schezwan Noodles~", 80);
+					MAIN.arrBilling[MAIN.foodCount].addFood("Schezwan Noodles~", 180);
 					MAIN.foodCount++;
 					break;
 				case 2:
@@ -35,15 +35,15 @@ public class Chinese
 					MAIN.foodCount++;
 					break;
 				case 3:
-					System.out.println("Fried Rice cost is " +90);
+					System.out.println("Fried Rice cost is " +160);
 					MAIN.arrBilling[MAIN.foodCount]=new Billing();
-					MAIN.arrBilling[MAIN.foodCount].addFood("Fried Rice~", 90);
+					MAIN.arrBilling[MAIN.foodCount].addFood("Fried Rice~", 160);
 					MAIN.foodCount++;
 					break;
 				case 4:
-					System.out.println("Momos cost is " +50);
+					System.out.println("Momos cost is " +80);
 					MAIN.arrBilling[MAIN.foodCount]=new Billing();
-					MAIN.arrBilling[MAIN.foodCount].addFood("Momos~", 50);
+					MAIN.arrBilling[MAIN.foodCount].addFood("Momos~", 80);
 					MAIN.foodCount++;
 					break;
 				case 5:
