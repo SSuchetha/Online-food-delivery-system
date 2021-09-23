@@ -45,7 +45,7 @@ class MAIN
 		Thread.sleep(2000);
 		while(exitmenu)
 		{
-			String menu="\nTo order vegetarian food press O \n To reserve a seat in a hotel press R"
+			String menu="\n To view menu press M \nTo order vegetarian food press O \n To reserve a seat in a hotel press R"
 					+ "\n To choose Bill Print press P \n To get catering services press C \n Press E to exit";
 			try
 			{
@@ -53,6 +53,9 @@ class MAIN
 				Thread.sleep(500);
 				switch(c)
 				{
+				case 'M':
+					Menu.main(null);
+					break;
 				case 'O':
 					String subMenu="To choose breakfast press \"B\"\n To choose lunch press \"L\"\n"
 							+ "To choose snacks press \"S\"\n To choose dinner press \"D";
